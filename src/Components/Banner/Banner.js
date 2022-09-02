@@ -44,7 +44,7 @@ const Banner = () => {
 			 development knowledge,
        Producing quality work.</p>
             
-  <a className='btn' href="https://drive.google.com/file/d/1vMocrk7GDH9jPH7nmScgYGgP52iG3bP4/view?usp=sharing" class="btn btn-primary mt-5">Download resume</a>
+          <button className='btn mt-10 btn-primary'>Contact</button>
         </div>
         
          <div class="hero-content lg:flex-row-reverse  img">
