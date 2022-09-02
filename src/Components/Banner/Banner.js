@@ -1,14 +1,22 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import {FaBeer  } from 'react-icons/fa';
 import './Banner.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FiFacebook } from 'react-icons/fa';
 
 
 const Banner = () => {
     return (
        
       <div class="hero  flex gap-36 justify-center align-middle banner">
-          <div className='ml-16'>    
+        <div className='text-3xl mt-16'>
+     <p> <a href=""><i class="fa-brands fa-facebook-f"></i></a></p>
+    <p className='mt-4'> <a href=""><i class="fa-brands fa-github"></i></a></p>
+    <p className='mt-4'> <a href=""><i class="fa-brands fa-linkedin-in"></i></a></p>
+    <p className='mt-4'> <a href=""><i class="fa-brands fa-twitter"></i></a></p>
+        </div>
+
+          <div className='ml-16 mt-10'>    
             <h1 className='text-4xl font-bold'>Hi, I 'am Pobarul islam</h1>
              <h2 className='text-left text-black text-1xl font-bold mt-3'><span className='text-orange-400 text-1xl'></span>
                     <span className='text-orange-400 text-left text-3xl font-bold'>
