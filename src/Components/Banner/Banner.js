@@ -7,15 +7,8 @@ import './Banner.css'
 const Banner = () => {
     return (
        
-      <div class="hero  flex flex-row-reverse gap-36">
-        
-        
-    <div class="hero-content lg:flex-row-reverse mr-20 img">
-            <img src="https://i.ibb.co/pyHHr5v/pobarul-islam-removebg-preview.png" class="max-w-sm rounded-lg" alt='Pobarul isalm Pictur'/>
-          </div>
-        
-          
-     <div className='ml-10 mt-28 '>    
+      <div class="hero  flex gap-36 justify-center align-middle banner">
+          <div className='ml-16'>    
             <h1 className='text-4xl font-bold'>Hi, I 'am Pobarul islam</h1>
              <h2 className='text-left text-black text-1xl font-bold mt-3'><span className='text-orange-400 text-1xl'></span>
                     <span className='text-orange-400 text-left text-3xl font-bold'>
@@ -44,17 +37,12 @@ const Banner = () => {
        Producing quality work.</p>
             
   <a className='btn' href="https://drive.google.com/file/d/1vMocrk7GDH9jPH7nmScgYGgP52iG3bP4/view?usp=sharing" class="btn btn-primary mt-5">Download resume</a>
-    </div>
-        <div>
-          <FaBeer />
+        </div>
         
-        
-    
-          <p><i class="fa-brands fa-gratipay"></i></p>
-   
-    
-    
-</div>
+         <div class="hero-content lg:flex-row-reverse  img">
+            <img src="https://i.ibb.co/pyHHr5v/pobarul-islam-removebg-preview.png" class="max-w-sm rounded-lg" alt='Pobarul isalm Pictur'/>
+          </div>
+       
 </div>
         
     );

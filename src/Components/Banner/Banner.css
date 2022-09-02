@@ -1,6 +1,6 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 700px) {
     /*Tablets [601px -> 1200px]*/
-    .img{
-        
+    .banner{
+        flex-direction: column-reverse;
     }
 }

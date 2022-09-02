@@ -14,7 +14,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div class="navbar bg-gray-500 ">
+            <div class="navbar ">
   <div class="navbar">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -24,9 +24,9 @@ const Navbar = () => {
             {menuItems}
             </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl text-white">Pobarul islam</a>
+    <a class="btn btn-ghost normal-case text-xl text-black">Pobarul islam</a>
   </div>
-  <div class="navbar-center hidden lg:flex text-white">
+  <div class="navbar-center hidden lg:flex">
    <ul className="menu menu-horizontal p-0">
             {menuItems}
             </ul>
