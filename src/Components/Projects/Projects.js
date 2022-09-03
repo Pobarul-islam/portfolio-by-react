@@ -13,9 +13,9 @@ const Projects = () => {
             .then(data => setProjects(data));
     },[])
     return (
-        <div>
-            <h2>Skills</h2>
-              <div className='grid grid-cols-3 ml-10 gap-y-10'>
+        <div className='mt-20'>
+            <h2 className='text-4xl text-center font-bold mt-10'>Projects</h2>
+              <div className='grid grid-cols-3 ml-10 gap-y-10 mt-10'>
            
             {
                 projects.map(project => <SingleProject

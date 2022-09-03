@@ -4,7 +4,10 @@
        "id": "1",
         "img": "https://i.ibb.co/9rWjng8/Screenshot-2.png",
         "name": "itracker",
-        "description": "iTracker is a powerful, feature-rich and mature error-tracking system "
+        "description": "iTracker is a powerful, feature-rich and mature error-tracking system",
+        "Technology": "",
+       "more": "https://stirring-bavarois-11876c.netlify.app/"
+        
     },
     
     {
@@ -12,14 +15,16 @@
         "id": "2",
         "img": "https://i.ibb.co/nMJnsV7/Screenshot-72.png",
         "name": "Stock Watches",
-        "description": "Inventory website that has collections of products that user can stock."
-
+        "description": "Inventory website that has collections of products that user can stock.",
+        "Technology": "React, React router, Tailwind css, firebase, Express, Full calendar mongodb, etc",
+        "more": "https://warm-crepe-369bb5.netlify.app/"
     },
     {
         "id": "3",
         "img": "https://i.ibb.co/Z6bWkXx/Screenshot-3.png",
         "name": "DOCTORS SERVICES WEBSITE DESIGNED",
-        "details": "Implanted end-to-end project with deferent features like Service display and search Login, Logout, Service Booking and Checkout."
+        "details": "Implanted end-to-end project with deferent features like Service display and search Login, Logout, Service Booking and Checkout.",
+        "more": "https://profound-cat-7829e2.netlify.app/"
 
 
     },

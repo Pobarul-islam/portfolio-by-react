@@ -1,7 +1,8 @@
 import React from 'react';
 
+
 const SingleProject = ({ project }) => {
-    const { name, img, description } = project;
+    const { name, img, description, more } = project;
     return (
         <div>
             <div class="card w-96 h-96 mb-5 bg-base-100 shadow-xl">
@@ -12,7 +13,7 @@ const SingleProject = ({ project }) => {
     <h2 class="card-title">{name}</h2>
     <p>{description} </p>
     <div class="card-actions">
-    <button class="btn btn-primary">Details</button>
+    <a className='btn' href={more} rel='noreferrer'>More</a>
       
     </div>
   </div>
