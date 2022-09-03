@@ -1,8 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import './Banner.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FiFacebook } from 'react-icons/fa';
+
 
 
 const Banner = () => {
