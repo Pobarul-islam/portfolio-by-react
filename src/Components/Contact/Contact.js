@@ -2,8 +2,9 @@ import React from 'react';
 import './Contact.css'
 const Contact = () => {
     return (
-        <div>
-            <div class="container">
+        <div className='mt-5'>
+            <h2 className='text-4xl font-bold text-center'>Contact</h2>
+            <div class=" container ml-10 mt-10">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
       <div class="form">
@@ -17,31 +18,27 @@ const Contact = () => {
           <div class="info">
             <div class="information">
               <img src="img/location.png" class="icon" alt="" />
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
+              <p>Thakurgaon, Bangladesh, 5102</p>
             </div>
             <div class="information">
               <img src="img/email.png" class="icon" alt="" />
-              <p>lorem@ipsum.com</p>
+              <p>pobarul.islam10@gmail.com</p>
+              
             </div>
             <div class="information">
               <img src="img/phone.png" class="icon" alt="" />
-              <p>123-456-789</p>
+              <p>+8801721620738</p>
             </div>
           </div>
 
           <div class="social-media">
             <p>Connect with us :</p>
             <div class="social-icons">
-              <a href="#">
+              <a href="https://www.facebook.com/Pobarulislam10">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
+             <a href=" https://github.com/Pobarul-islam"><i className="fa-brands ml-3 ease-in duration-300  fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/md-pobarul-islam-04bb2b1b8/">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
