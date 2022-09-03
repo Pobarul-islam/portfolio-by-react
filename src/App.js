@@ -4,7 +4,6 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
-import Project1 from "./Components/Projects/Project1";
 import Contact from "./Components/Contact/Contact";
 
 

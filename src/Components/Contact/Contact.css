@@ -135,7 +135,7 @@ textarea.input {
 
 .btn:hover {
     background-color: transparent;
-    color: #fff;
+    color: rgb(8, 8, 8);
 }
 
 .input-container span {
