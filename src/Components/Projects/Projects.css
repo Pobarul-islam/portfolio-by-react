@@ -1,0 +1,13 @@
+.project{
+        background-color: #98B77E;
+        color: white;
+       
+        
+}
+
+.card:hover {
+
+    
+    transition: .4;
+    
+}

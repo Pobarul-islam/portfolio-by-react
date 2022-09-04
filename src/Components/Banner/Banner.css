@@ -2,5 +2,9 @@
     /*Tablets [601px -> 1200px]*/
     .banner{
         flex-direction: column-reverse;
+        
     }
 }
+
+
+

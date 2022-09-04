@@ -5,7 +5,7 @@ const SingleProject = ({ project }) => {
     const { name, img, description, more } = project;
     return (
         <div>
-            <div class="card w-96 h-96 mb-5 bg-base-100 shadow-xl">
+            <div class="card project w-96 h-96 mb-5 bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
     <img style={{width: "25rem"}} src={img} alt="Shoes" class="rounded-xl" />
   </figure>

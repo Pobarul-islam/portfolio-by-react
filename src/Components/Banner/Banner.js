@@ -7,16 +7,16 @@ import './Banner.css'
 const Banner = () => {
     return (
        
-      <div class="hero  flex gap-36 justify-center align-middle banner">
-        <div className='text-3xl mt-16'>
-     <p> <a href=""><i class="fa-brands fa-facebook-f"></i></a></p>
+      <div class="hero  flex  justify-center align-middle gap-x-10 min-h-screen banner">
+        <div className='text-3xl mb-10'>
+     <p><a href=""><i class="fa-brands fa-facebook-f"></i></a></p>
     <p className='mt-4'> <a href=""><i class="fa-brands fa-github"></i></a></p>
     <p className='mt-4'> <a href=""><i class="fa-brands fa-linkedin-in"></i></a></p>
     <p className='mt-4'> <a href=""><i class="fa-brands fa-twitter"></i></a></p>
         </div>
 
-          <div className='ml-16 mt-10'>    
-            <h1 className='text-4xl font-bold'>Hi, I 'am Pobarul islam</h1>
+          <div className='ml-16 mb-24'>    
+            <p className='text-4xl font-bold'>Hi, I 'am Pobarul islam</p>
              <h2 className='text-left text-black text-1xl font-bold mt-3'><span className='text-orange-400 text-1xl'></span>
                     <span className='text-orange-400 text-left text-3xl font-bold'>
                         <TypeAnimation
@@ -39,15 +39,15 @@ const Banner = () => {
      className=""
     />
       </span></h2> 
-			 <p className='mt-5 text-xl'> High level experience in web design <br /> and
+			 <p className='text-xl'> High level experience in web design <br /> and
 			 development knowledge,
        Producing quality work.</p>
             
-          <button className='btn mt-10 btn-primary'>Contact</button>
+          <button className='btn btn-primary '>Contact</button>
         </div>
         
-         <div class="hero-content lg:flex-row-reverse  img">
-            <img src="https://i.ibb.co/pyHHr5v/pobarul-islam-removebg-preview.png" class="max-w-sm rounded-lg" alt='Pobarul isalm Pictur'/>
+         <div class="hero-content lg:flex-row-reverse img">
+            <img className='bannerImg mb-44' src="https://i.ibb.co/pyHHr5v/pobarul-islam-removebg-preview.png" alt='Pobarul isalm Pictur'/>
           </div>
        
 </div>

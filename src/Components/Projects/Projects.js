@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import SingleProject from './SingleProject';
-
+import './Projects.css'
 
 
 const Projects = () => {
@@ -15,7 +15,7 @@ const Projects = () => {
     return (
         <div className='mt-20'>
             <h2 className='text-4xl text-center font-bold mt-10'>Projects</h2>
-              <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 ml-10 gap-y-10 mt-10'>
+              <div className='grid  md:grid-cols-2 lg:grid-cols-3 gap-4 ml-10 gap-y-10 mt-10'>
            
             {
                 projects.map(project => <SingleProject

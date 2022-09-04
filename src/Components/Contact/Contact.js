@@ -11,22 +11,23 @@ const Contact = () => {
         <div class="contact-info">
           <h3 class="title">Let's get in touch</h3>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            If you fill all the fields in this form and send an email, we will contact you within 24 hours !
           </p>
 
           <div class="info">
-            <div class="information">
-              <img src="img/location.png" class="icon" alt="" />
+            <div class="information gap-2">
+                 
+              <i class="fa-solid fa-location-dot"></i>
               <p>Thakurgaon, Bangladesh, 5102</p>
             </div>
-            <div class="information">
-              <img src="img/email.png" class="icon" alt="" />
+            <div class="information gap-2">
+                
+              <i class="fa-solid fa-envelope"></i>
               <p>pobarul.islam10@gmail.com</p>
               
             </div>
-            <div class="information">
-              <img src="img/phone.png" class="icon" alt="" />
+            <div class="information gap-2">
+             <i class="fa-solid fa-phone"></i>
               <p>+8801721620738</p>
             </div>
           </div>
@@ -51,7 +52,7 @@ const Contact = () => {
 
           <form action="index.html" autocomplete="off">
             <h3 class="title">Contact us</h3>
-            <div class="input-container">
+            <div  class="input-container">
               <input type="text" name="name" class="input" />
               <label for="">Username</label>
               <span>Username</span>

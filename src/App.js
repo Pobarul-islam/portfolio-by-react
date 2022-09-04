@@ -5,12 +5,13 @@ import About from './Components/About/About';
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
-
+import './App.css'
+import Error from "./Components/Error/Error";
 
 
 function App() {
   return (
-    <div className="bg-gray-300">
+    <div className="background">
       <Navbar/>
        <Routes>
         <Route path="/" element={<Home />} />
@@ -18,10 +19,10 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/blogs" element={<Home />} />
-        <Route path="/contacts" element={<Contact/>}></Route>
-    
-    
+        <Route path="/contacts" element={<Contact />}></Route>
+       <Route path="*" element={<Error/>}></Route>
       </Routes>
+      
     </div>
   );
 }

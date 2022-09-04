@@ -1,14 +1,14 @@
 import React from 'react';
-
+import './About.css'
 const About = () => {
     return (
-        <div className=''>
-            <h2 className='mt-44 text-4xl text-center font-bold'>About</h2>
-            <div class=" min-h p-4">
+        <div>
+            <h2 className=' text-4xl text-center font-bold'>About</h2>
+            <div class="min-h-screen hero">
                 
   <div className="hero-content flex-col lg:flex-row mr-10">
-    <img src="https://i.ibb.co/gRLY9FW/ima-removebg-preview.png" alt='' class="max-w-sm rounded-lg" />
-    <div className='ml-20'>
+    <img src="https://i.ibb.co/gRLY9FW/ima-removebg-preview.png" alt=''/>
+    <div className='aboutText'>
 
     <p>
     My name is Pobarul islam, and I am from Thakurgaon, Bangladesh. <br />
