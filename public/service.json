@@ -23,7 +23,7 @@
         "id": "3",
         "img": "https://i.ibb.co/Z6bWkXx/Screenshot-3.png",
         "name": "DOCTORS SERVICES WEBSITE DESIGNED",
-        "details": "Implanted end-to-end project with deferent features like Service display and search Login, Logout, Service Booking and Checkout.",
+        "description": "Implanted end-to-end project with deferent features like Service display and search",
         "more": "https://profound-cat-7829e2.netlify.app/"
 
 
@@ -32,7 +32,8 @@
         "id": "4",
         "img": "https://i.ibb.co/xJs0h0T/Screenshot-5.png",
         "name": "Penguin Fashion",
-        "details": ""
+        "details": "",
+        "more": "https://pobarul-islam.github.io/Penguin-fashion/"
 
 
     },
@@ -41,7 +42,8 @@
           "id": "5",
           "img": "https://i.ibb.co/Qny9P7Q/Screenshot-6.png",
         "name": "Weather App",
-        "details": ""
+        "details": "",
+        "more": "https://pobarul-islam.github.io/weather-app/"
 
 
     },
@@ -50,7 +52,9 @@
         "id": "5",
         "img": "https://i.ibb.co/grmnrRm/Screenshot-4.png",
         "name": "Public Bank Account",
-        "details": ""
+        "details": "",
+        "more": "https://thirsty-haibt-c09bd1.netlify.app/"
+        
     }
 
 ]

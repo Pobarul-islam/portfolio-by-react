@@ -8,7 +8,7 @@ const About = () => {
                 
   <div className="hero-content flex-col lg:flex-row mr-10">
     <img src="https://i.ibb.co/gRLY9FW/ima-removebg-preview.png" alt=''/>
-    <div className='aboutText text-blue-100'>
+    <div className='aboutText text-blue-100 p-3'>
 
     <p>
     My name is Pobarul islam, and I am from Thakurgaon, Bangladesh. <br />
@@ -24,7 +24,7 @@ My long-term goal is to become a more responsible and knowledgeable personality 
 That's all about me. And thanks again for this great opportunity.
 
 </p>
-      <button className="btn btn-primary mt-8">Download resume</button>
+     <a className='btn' href="https://drive.google.com/file/d/1vMocrk7GDH9jPH7nmScgYGgP52iG3bP4/view?usp=sharing">Download Resume</a>
     </div>
   </div>
 </div>
