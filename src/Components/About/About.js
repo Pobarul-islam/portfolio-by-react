@@ -8,7 +8,7 @@ const About = () => {
                 
   <div className="hero-content flex-col lg:flex-row mr-10">
     <img src="https://i.ibb.co/gRLY9FW/ima-removebg-preview.png" alt=''/>
-    <div className='aboutText'>
+    <div className='aboutText text-blue-100'>
 
     <p>
     My name is Pobarul islam, and I am from Thakurgaon, Bangladesh. <br />
