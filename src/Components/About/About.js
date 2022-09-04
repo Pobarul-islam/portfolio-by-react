@@ -24,7 +24,7 @@ My long-term goal is to become a more responsible and knowledgeable personality 
 That's all about me. And thanks again for this great opportunity.
 
 </p>
-     <a className='btn' href="https://drive.google.com/file/d/1vMocrk7GDH9jPH7nmScgYGgP52iG3bP4/view?usp=sharing">Download Resume</a>
+     <a className='btn' href="https://drive.google.com/file/d/1C_5aaZRymhVWEbyOD5eVN6TS2QwO4FMk/view?usp=sharing">Download Resume</a>
     </div>
   </div>
 </div>
