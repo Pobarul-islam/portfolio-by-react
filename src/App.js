@@ -7,6 +7,7 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import './App.css'
 import Error from "./Components/Error/Error";
+import Blogs from "./Components/Blogs/Blogs";
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/blogs" element={<Home />} />
         <Route path="/contacts" element={<Contact />}></Route>
-       <Route path="*" element={<Error/>}></Route>
+         <Route path="/blogs" element={<Blogs/>}></Route>
+        <Route path="*" element={<Error />}></Route>
+       
       </Routes>
       
     </div>

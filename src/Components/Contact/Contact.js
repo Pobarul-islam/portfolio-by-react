@@ -65,22 +65,19 @@ const Contact = () => {
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form ref={form} onSubmit={sendEmail} >
+          <form ref={form} onSubmit={sendEmail} autoComplete="off" >
             <h3 class="title">Contact us</h3>
             <div  class="input-container">
-              <input type="text" name="user_name" class="input" />
-              <label for="">Username</label>
-              <span>Username</span>
+              <input type="text" name="user_name" class="input" placeholder='Name'/>
+            
             </div>
             <div class="input-container">
-              <input type="email" name="user_email" class="input" />
-              <label for="">Email</label>
-              <span>Email</span>
+              <input type="email" name="user_email" class="input" placeholder='Email'/>
+              
             </div>
             <div class="input-container">
-              <input type="tel" name="user_phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
+              <input type="tel" name="user_phone" class="input" placeholder='Phone'/>
+             
             </div>
             <div class="input-container textarea">
               <textarea name="message" class="input"></textarea>
