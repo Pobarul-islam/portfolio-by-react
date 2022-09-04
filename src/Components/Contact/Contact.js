@@ -1,6 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css'
 const Contact = () => {
+   const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_1gofjtm', 'template_kfckaeh', form.current, 'H0PHL1d5uPDX351g0')
+      .then((result) => {
+        console.log(result.text);
+        console.log("message sended")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
     return (
         <div className='mt-5'>
             <h2 className='text-4xl font-bold text-center'>Contact</h2>
@@ -50,20 +65,20 @@ const Contact = () => {
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="index.html" autocomplete="off">
+          <form ref={form} onSubmit={sendEmail} >
             <h3 class="title">Contact us</h3>
             <div  class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" name="user_name" class="input" />
               <label for="">Username</label>
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="email" name="user_email" class="input" />
               <label for="">Email</label>
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input" />
+              <input type="tel" name="user_phone" class="input" />
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
