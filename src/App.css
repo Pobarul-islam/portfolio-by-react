@@ -38,6 +38,23 @@
 }
 
 .background{
- background: linear-gradient(0.25turn, #3f87a6, #97b87f, #f69d3c);
+ background: linear-gradient(0.25turn, #3f87a6, #859a77, #9e784f);
   
+}
+
+@media only screen and (max-width: 1200px) {
+  
+}
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+ 
 }

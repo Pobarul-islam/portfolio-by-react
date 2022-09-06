@@ -17,7 +17,8 @@ const SingleProject = ({ project }) => {
       
     </div>
   </div>
-</div>
+        </div>
+      
         </div>
     );
 };

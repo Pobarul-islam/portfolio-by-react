@@ -8,11 +8,13 @@ import Contact from "./Components/Contact/Contact";
 import './App.css'
 import Error from "./Components/Error/Error";
 import Blogs from "./Components/Blogs/Blogs";
+import Footer from "./Components/Footer/Footer";
+
 
 
 function App() {
   return (
-    <div className="background">
+    <div className="background ">
       <Navbar/>
        <Routes>
         <Route path="/" element={<Home />} />
@@ -22,9 +24,9 @@ function App() {
         <Route path="/contacts" element={<Contact />}></Route>
          <Route path="/blogs" element={<Blogs/>}></Route>
         <Route path="*" element={<Error />}></Route>
-       
+    
       </Routes>
-      
+      <Footer/>
     </div>
   );
 }

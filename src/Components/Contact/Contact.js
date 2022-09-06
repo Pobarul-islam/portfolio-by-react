@@ -10,7 +10,8 @@ const Contact = () => {
     emailjs.sendForm('service_1gofjtm', 'template_kfckaeh', form.current, 'H0PHL1d5uPDX351g0')
       .then((result) => {
         console.log(result.text);
-        console.log("message sended")
+        
+       
       }, (error) => {
           console.log(error.text);
       });
@@ -18,7 +19,7 @@ const Contact = () => {
 
     return (
         <div className='mt-5'>
-            <h2 className='text-4xl font-bold text-center'>Contact</h2>
+            <h2 className='text-4xl font-bold text-center text-white'>Contact</h2>
             <div class=" container ml-10 mt-10">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
@@ -66,7 +67,7 @@ const Contact = () => {
           <span class="circle two"></span>
 
           <form ref={form} onSubmit={sendEmail} autoComplete="off" >
-            <h3 class="title">Contact us</h3>
+            <h3 class="title ">Contact us</h3>
             <div  class="input-container">
               <input type="text" name="user_name" class="input" placeholder='Name'/>
             

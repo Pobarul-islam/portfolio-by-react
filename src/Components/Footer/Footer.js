@@ -6,7 +6,8 @@ const Footer = () => {
         <div>
             <footer class="footer p-10 bg-neutral text-neutral-content">
   <div>
-    <Link className='text-2xl font-bold' to="/banner">Pobarul islam</Link>
+            <Link className='text-2xl font-bold' to="/"><a>Pobarul islam</a></Link>
+            
    
   </div> 
   <div>

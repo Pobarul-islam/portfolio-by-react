@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <h2 className=' text-4xl text-center font-bold'>About</h2>
+            <h2 className=' text-4xl text-center font-bold text-white'>About</h2>
             <div class="min-h-screen hero">
                 
   <div className="hero-content flex-col lg:flex-row mr-10">
